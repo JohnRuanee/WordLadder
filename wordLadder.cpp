@@ -85,9 +85,9 @@ void wordLadder(string s, string t, int &steps, vector<string> &p){
   buildGraph();
   search(s);
   steps = findSteps(s, t, p);
-  reverse(p.begin(), p.end());
 }
 
+/*
 int main(void)
 {
   int steps = 0;
@@ -116,3 +116,4 @@ int main(void)
   }
   return 0;
 }
+*/
