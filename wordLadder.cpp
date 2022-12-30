@@ -95,7 +95,7 @@ void wordLadder(string s, string t, int &steps, vector<string> &p){
   steps = findSteps(s, t, p);
 }
 
-/*
+
 int main(void)
 {
   int steps = 0;
@@ -124,4 +124,4 @@ int main(void)
   }
   return 0;
 }
-*/
+
